@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "podcore"
   s.version      = "1.0.0"
-  s.summary      = ""
+  s.summary      = "core module"
 
   s.description  = <<-DESC
                    A longer description of podcore in Markdown format.
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = { :type => 'BSD', :text => 'BSD' }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/raisaanjani92/podcore.git", :commit => "c13fd3bdc73f488d98af758205039d146aa36cc5" }
+  s.source       = { :git => "https://github.com/raisaanjani92/podcore.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -131,7 +131,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "JSONKit", "~> 1.4"
-  s.dependency "AFNetworking"
+  s.dependency 'OCMock', '~> 2.0.1'
 
 end
