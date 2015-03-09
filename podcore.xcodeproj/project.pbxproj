@@ -10,6 +10,8 @@
 		B2C0B0831AADA8FF00C86758 /* podcore.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C0B0821AADA8FF00C86758 /* podcore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2C0B0891AADA8FF00C86758 /* podcore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C0B07D1AADA8FF00C86758 /* podcore.framework */; };
 		B2C0B0901AADA8FF00C86758 /* podcoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C0B08F1AADA8FF00C86758 /* podcoreTests.m */; };
+		B2C0B09B1AADB3C600C86758 /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C0B0991AADB3C600C86758 /* Utilities.h */; };
+		B2C0B09C1AADB3C600C86758 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C0B09A1AADB3C600C86758 /* Utilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		B2C0B0881AADA8FF00C86758 /* podcoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podcoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C0B08E1AADA8FF00C86758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2C0B08F1AADA8FF00C86758 /* podcoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podcoreTests.m; sourceTree = "<group>"; };
+		B2C0B0991AADB3C600C86758 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		B2C0B09A1AADB3C600C86758 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				B2C0B0821AADA8FF00C86758 /* podcore.h */,
+				B2C0B0991AADB3C600C86758 /* Utilities.h */,
+				B2C0B09A1AADB3C600C86758 /* Utilities.m */,
 				B2C0B0801AADA8FF00C86758 /* Supporting Files */,
 			);
 			path = podcore;
@@ -110,6 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2C0B0831AADA8FF00C86758 /* podcore.h in Headers */,
+				B2C0B09B1AADB3C600C86758 /* Utilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C0B09C1AADB3C600C86758 /* Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +333,7 @@
 				INFOPLIST_FILE = podcore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -340,6 +349,7 @@
 				INFOPLIST_FILE = podcore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
