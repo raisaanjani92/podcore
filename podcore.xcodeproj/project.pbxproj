@@ -12,6 +12,8 @@
 		B2C0B0901AADA8FF00C86758 /* podcoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C0B08F1AADA8FF00C86758 /* podcoreTests.m */; };
 		B2C0B09B1AADB3C600C86758 /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C0B0991AADB3C600C86758 /* Utilities.h */; };
 		B2C0B09C1AADB3C600C86758 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C0B09A1AADB3C600C86758 /* Utilities.m */; };
+		B2C16CAF1AADD59400F10974 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C16CAD1AADD59400F10974 /* Reachability.h */; };
+		B2C16CB01AADD59400F10974 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C16CAE1AADD59400F10974 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		B2C0B08F1AADA8FF00C86758 /* podcoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podcoreTests.m; sourceTree = "<group>"; };
 		B2C0B0991AADB3C600C86758 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		B2C0B09A1AADB3C600C86758 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		B2C16CAD1AADD59400F10974 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = "<group>"; };
+		B2C16CAE1AADD59400F10974 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				B2C0B07F1AADA8FF00C86758 /* podcore */,
 				B2C0B08C1AADA8FF00C86758 /* podcoreTests */,
 				B2C0B07E1AADA8FF00C86758 /* Products */,
+				B2C16CAD1AADD59400F10974 /* Reachability.h */,
+				B2C16CAE1AADD59400F10974 /* Reachability.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +121,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C16CAF1AADD59400F10974 /* Reachability.h in Headers */,
 				B2C0B0831AADA8FF00C86758 /* podcore.h in Headers */,
 				B2C0B09B1AADB3C600C86758 /* Utilities.h in Headers */,
 			);
@@ -216,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C16CB01AADD59400F10974 /* Reachability.m in Sources */,
 				B2C0B09C1AADB3C600C86758 /* Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +412,7 @@
 				B2C0B0951AADA8FF00C86758 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2C0B0961AADA8FF00C86758 /* Build configuration list for PBXNativeTarget "podcoreTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +421,7 @@
 				B2C0B0981AADA8FF00C86758 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

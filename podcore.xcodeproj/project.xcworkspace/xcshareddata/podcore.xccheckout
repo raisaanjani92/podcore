@@ -12,6 +12,8 @@
 	<dict>
 		<key>601D4D9E2E82A50D1F4873788A7C2C98563772F1</key>
 		<string>https://github.com/raisaanjani92/podcore.git</string>
+		<key>7070BA961BCA286ED2393408B1E3D78393C99B33</key>
+		<string>https://github.com/tonymillion/Reachability</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>podcore.xcodeproj</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>601D4D9E2E82A50D1F4873788A7C2C98563772F1</key>
 		<string>../..</string>
+		<key>7070BA961BCA286ED2393408B1E3D78393C99B33</key>
+		<string>../../Reachability/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/raisaanjani92/podcore.git</string>
@@ -35,6 +39,14 @@
 			<string>601D4D9E2E82A50D1F4873788A7C2C98563772F1</string>
 			<key>IDESourceControlWCCName</key>
 			<string>podcore</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7070BA961BCA286ED2393408B1E3D78393C99B33</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Reachability</string>
 		</dict>
 	</array>
 </dict>
